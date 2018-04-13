@@ -1,0 +1,11 @@
+#build
+dist
+
+#npm modules
+node_modules
+
+#Mac os
+.DS_Store
+
+#IDE
+.idea/*
