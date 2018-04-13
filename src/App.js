@@ -5,6 +5,7 @@ import './global.css';
 
 import HomePage from './pages/Home/index';
 import PageA from './pages/pageA/index';
+import PageB from './pages/pageB/index';
 
 export default class App extends Component {
   constructor(props) {
@@ -23,6 +24,12 @@ export default class App extends Component {
           key: 'page-a',
           link: '/page-a',
           component: PageA
+        },
+        {
+          title: 'PageB',
+          key: 'page-b',
+          link: '/page-b',
+          component: PageB
         }
       ]
     };

@@ -17,6 +17,10 @@ npm run build
 
 > You will have your production code in `dist` directory
 
+### preview
+
+![Preview](https://github.com/CoonJS/react-react-router-dom-simple-boilerplate/blob/master/src/assets/Preview.png?raw=true "Preview")
+
 
 
 
