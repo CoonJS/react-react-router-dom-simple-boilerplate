@@ -3,13 +3,14 @@
     background-color: #eee;
     flex-direction: column;   
     margin: 16px; 
+    height: 100%;
 }
 
 
 .flex-element {
     background-color: #eee;   
     margin-bottom: 16px;
-    height: 48px;  
+    height: 100%;  
     text-align: center;     
 }
 
@@ -17,14 +18,12 @@
     background-color: tomato;   
 }
 
-.flex-element:nth-child(2) {
+.flex-element:nth-child(2), .flex-element:last-child {
     display: flex;
     flex-direction: row; 
 } 
 
-.flex-element:last-child {       
-    display: flex;
-    flex-direction: row; 
+.flex-element:last-child {        
     margin-bottom: 0;  
 }
 
