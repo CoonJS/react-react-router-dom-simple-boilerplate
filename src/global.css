@@ -6,6 +6,7 @@
 .layout {
     display: flex;
     flex: 1;
+    height: 100vh;
 }
 
 .nav-menu {
@@ -30,4 +31,6 @@
 
 .page-container {
     margin-top: 52px;
+    width: 100%;
+    height: 87%;
 }

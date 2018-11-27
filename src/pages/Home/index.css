@@ -1,0 +1,41 @@
+.flex-container {
+    display: flex;
+    background-color: #eee;
+    flex-direction: column;   
+    margin: 16px; 
+    height: 100%;
+}
+
+
+.flex-element {
+    background-color: #eee;   
+    margin-bottom: 16px;
+    height: 100%;  
+    text-align: center;     
+}
+
+.flex-element:first-child {
+    background-color: tomato;   
+}
+
+.flex-element:nth-child(2), .flex-element:last-child {
+    display: flex;
+    flex-direction: row; 
+} 
+
+.flex-element:last-child {        
+    margin-bottom: 0;  
+}
+
+
+.flex-element-ch {
+    width: 100%;
+    background-color: tomato;   
+    margin-right: 16px;
+}
+
+.flex-element-ch:last-child {     
+    margin-right: 0;
+}
+
+
