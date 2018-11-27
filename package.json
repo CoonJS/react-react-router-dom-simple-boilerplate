@@ -1,5 +1,5 @@
 {
-  "name": "react-react-router-dom-simple-boilerplate",
+  "name": "dockerizing-frontend-application-for-dev-mode",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,36 +10,52 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CoonJS/react-react-router-dom-simple-boilerplate.git"
+    "url": "git+git@github.com:CoonJS/dockerizing-frontend-application-for-dev-mode.git"
   },
   "keywords": [
     "React",
     "React-router-dom",
-    "Boilerplate"
+    "Boilerplate",
+    "Docker",
+    "Docker-compose"
   ],
   "author": "babanov.js@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CoonJS/react-react-router-dom-simple-boilerplate/issues"
+    "url": "https://github.com/CoonJS/dockerizing-frontend-application-for-dev-mode/issues"
   },
-  "homepage": "https://github.com/CoonJS/react-react-router-dom-simple-boilerplate#readme",
+  "homepage": "https://github.com/CoonJS/dockerizing-frontend-application-for-dev-mode/blob/master/README.md",
   "dependencies": {
-    "react": "^16.3.1",
-    "react-dom": "^16.3.1",
-    "react-router-dom": "^4.2.2"
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-router-dom": "^4.3.1"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.4",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-1": "^6.24.1",
-    "css-loader": "^0.28.11",
-    "file-loader": "^1.1.11",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-decorators": "^7.0.0",
+    "@babel/plugin-proposal-do-expressions": "^7.0.0",
+    "@babel/plugin-proposal-export-default-from": "^7.0.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.0.0",
+    "@babel/plugin-proposal-function-sent": "^7.0.0",
+    "@babel/plugin-proposal-json-strings": "^7.0.0",
+    "@babel/plugin-proposal-logical-assignment-operators": "^7.0.0",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.0.0",
+    "@babel/plugin-proposal-numeric-separator": "^7.0.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+    "@babel/plugin-proposal-pipeline-operator": "^7.0.0",
+    "@babel/plugin-proposal-throw-expressions": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-syntax-import-meta": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.0",
+    "css-loader": "^1.0.1",
+    "file-loader": "^2.0.0",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
-    "style-loader": "^0.20.3",
-    "webpack": "^4.5.0",
-    "webpack-cli": "^2.0.14",
-    "webpack-dev-server": "^3.1.3"
+    "style-loader": "^0.23.1",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
   }
 }

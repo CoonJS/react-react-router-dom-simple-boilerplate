@@ -6,6 +6,10 @@ var entryPoint = path.resolve(__dirname, 'index.js');
 
 module.exports = {
   entry: entryPoint,
+  output: {
+    path: path.resolve(__dirname, 'docs'),
+    filename: '[name].js'
+  },
   module: {
     rules: [
       {
