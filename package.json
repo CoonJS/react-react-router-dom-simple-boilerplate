@@ -1,5 +1,5 @@
 {
-  "name": "dockerizing-frontend-application-for-dev-mode",
+  "name": "react-react-router-dom-simple-boilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,21 +10,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+git@github.com:CoonJS/dockerizing-frontend-application-for-dev-mode.git"
+    "url": "git+git@github.com:CoonJS/react-react-router-dom-simple-boilerplate.git"
   },
   "keywords": [
     "React",
     "React-router-dom",
     "Boilerplate",
-    "Docker",
-    "Docker-compose"
+    "webpack"
   ],
   "author": "babanov.js@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CoonJS/dockerizing-frontend-application-for-dev-mode/issues"
+    "url": "https://github.com/CoonJS/react-react-router-dom-simple-boilerplate/issues"
   },
-  "homepage": "https://github.com/CoonJS/dockerizing-frontend-application-for-dev-mode/blob/master/README.md",
+  "homepage": "https://github.com/CoonJS/react-react-router-dom-simple-boilerplate/blob/master/README.md",
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
